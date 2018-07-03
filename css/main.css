@@ -1,0 +1,195 @@
+/*This will be the main CSS for the Product Landing Page project for FreeCodeCamp by Steve Golden */
+
+:root {
+  --button-color: #ecdb54;
+}
+
+/* Index.html 376px Breakpoint */
+
+body {
+  font-family: 'Lato', sans-serif;
+  padding-top: 150px;
+}
+
+.index__navBar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.index__logoImgWrap {
+  text-align: center;
+}
+
+#header-img {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+}
+
+.index__trumpetIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.index__navleft {
+  font: 25px Times New Roman, serif;
+  text-align: center;
+}
+
+.index__navright {
+  font-size: 20px;
+  padding-left: 0;
+}
+
+.index__navLink {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.index__navLink a {
+  text-decoration: none;
+}
+
+.index__emailSub {
+  text-align: center;
+}
+#email {
+  display: block;
+  height: 20px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: var(--button-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.index__button {
+  background-color: var(--button-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.index__mainVideo {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.index__productDesc {
+  width: 80%;
+  margin: 0 auto;
+}
+.index__productDesc li{
+  list-style: none;
+}
+
+.index_productQual {
+  list-style: none;
+}
+
+.index__productQual ul {
+  padding-left: 0;
+}
+
+.index__productQual li {
+  list-style: none;
+}
+
+.index__qualTitle-pos{
+  text-align: center;
+}
+
+.index__qualTitle {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.index__materialsLogo {
+  width: 30px;
+  height: 30px;
+}
+
+.index__shippingLogo {
+  width: 30px;
+  height: 30px;
+}
+
+.index__qualityLogo {
+  width: 30px;
+  height: 30px;
+}
+
+.index__prodOptItems {
+  border: solid 1px black;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.index__prodOptTitle {
+  padding-top: 10px;
+  background-color: gray;
+}
+
+.index__prodOptItems ul {
+  padding-left: 0;
+}
+
+.index__prodOptItems ul li {
+  padding-bottom: 10px;
+}
+
+  .index__prodOptItems ul li:first-child {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .index__footerlist {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+  }
+
+.index__footerCpy {
+  text-align: center;
+}
+
+/* index page medium breakpoint 768px */
+@media(min-width: 768px) {
+
+  body {
+    padding-top: 60px;
+  }
+
+  .index__navBar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .index__navright li {
+    display: inline-block;
+    padding-right: 10px;
+  }
+
+  .index__prodOptItems {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+
+  .index__footerlist li {
+    display: inline-block;
+    padding-right: 10px;
+  }
+}//end of 768px breakpoint
