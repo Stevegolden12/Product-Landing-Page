@@ -11,6 +11,7 @@ body {
   padding-top: 150px;
 }
 
+
 .index__navBar {
   display: flex;
   flex-direction: column;
@@ -170,6 +171,7 @@ button {
   body {
     padding-top: 60px;
   }
+
 
   .index__navBar {
     flex-direction: row;
